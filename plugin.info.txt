@@ -1,0 +1,7 @@
+base    ikso
+author  Moisés Braga Ribeiro
+email   moisesbr@gmail.com
+date    2020-06-06
+name    Ikso plugin
+desc    Pseudo-plugin for typing Esperanto letters with "X-code"
+url     http://www.dokuwiki.org/plugin:ikso
