@@ -35,7 +35,9 @@ jQuery(function() {
     }
 
     // kaptu eventojn en ĉiuj tekstokampoj
-    jQuery('input[type="text"],textarea').each(function() {
+    jQuery('input[type="text"],textarea')
+        .not('#plugin__captcha_wrapper > input.edit') // krom kampoj por testo CAPTCHA
+        .each(function() {
 
         // fokuso: montru la modalan dialogon se necese
         jQuery(this).focus(function(event) {
